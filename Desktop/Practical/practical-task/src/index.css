@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.validation-message {
+  color: red
+}
+.top-header {
+  height: 650px;
+  width: 100%;
+  background-color: #e7f1f2;
+  display: flex;
+  align-items: center;
+}
+.left-content {
+  /* height: 200px; */
+  position: relative;
+  top: 50px;
+  width: 500px;
+  margin: 0 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+.top-content {
+  width: 400px;
+}
+.header-image {
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  left: 700px;
+  background-image: url("./Assets/images/Asset_1.png");
+  background-repeat: no-repeat;
+  z-index: 3;
+  height: 600px;
+}
+.right-content {
+  height: 400px;
+  width: 1100px;
+  position: absolute;
+  z-index: 1;
+  top: 108px;
+  right: 1px;
+  left: 225px;
+  background-image: url("./Assets/images/Path.png");
+  background-repeat: no-repeat;
+}
+.bottom-content {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+.button-content {
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+  margin-top: 10px;
+}
+.btn {
+  border-radius: 20px !important;
+  color: white !important;
+  background-color: #ff6400 !important;
+}
+.service-section {
+  height: 100vh;
+  margin: "10px 0";
+}
+.blogs-section {
+  background-color: #e7f1f2;
+  padding-top: 50px;
+}
+.viewall-section {
+  height : auto;
+  background-color: #E7F1F2;
+}
+.process-section,
+.testimonials-sestion,
+.blogs-section {
+  height: 100vh;
+}
+.process-body {
+  display: flex;
+  justify-content: center;
+}
+.service-header,
+.process-header,
+.testimonials-header {
+  display: flex;
+  justify-content: start;
+  margin: 20px 15px;
+}
+.service-header span,
+.process-header span,
+.testimonials-header span,
+.blogs-header span,
+.viewall-header span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.blogs-body, .viewall-body {
+  margin-top: 100px;
+}
+.blogs-header, .viewall-header {
+  display: flex;
+  justify-content: space-between;
+}
+.blogs-header .view-all {
+  font-size: 18px;
+  cursor: pointer;
+  color: blue;
+}
+.service-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-us-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-header {
+  color: #606060;
+  height: 100px;
+}
+.contact-section {
+  display: flex;
+  width: 700px !important;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-body {
+  height: 200px;
+}
+.contact-form input, .contact-form select, .contact-form textarea {
+  outline: 0;
+  border: none;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: none;
+}
+.contact-form input:focus{
+  border: none;
+  outline: none
+}
+.footer-section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E7F1F2;
+}
